@@ -25,7 +25,7 @@ function handleSourceOpen() {
 }
 
   async function startStreaming() { // 标记为异步函数
-    const musicUrl = 'http://music.163.com/song/media/outer/url?id=33861587.mp3'; // 替换为音乐文件的路径
+    const musicUrl = 'https://music.163.com/song/media/outer/url?id=33861587.mp3'; // 替换为音乐文件的路径
 
     try {
       const response = await fetch(musicUrl);
