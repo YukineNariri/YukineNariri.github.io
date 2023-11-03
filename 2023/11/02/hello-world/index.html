@@ -280,13 +280,15 @@
  
 
   
-      <div class="comment-card">
-          <div id="disqus_thread"></div>
-<script>
-var dsqjs = new DisqusJS({
+     <div id="comment-card" class="comment-card">
+     <div id="disqusjs"></div>
+<script type="text/javascript">
+   $(function(){
+window.DISQUS = null;
+const disqusjs = new DisqusJS({
     shortname: 'yukineri,',
-    siteName: '',
-    identifier: 'http://example.com/2023/11/02/hello-world/',
+    siteName: 'Yukineri,',
+    identifier: '2023/11/02/hello-world/',
     url: 'http://example.com/2023/11/02/hello-world/',
     title: 'Hello World',
     api: 'https://disqus.skk.moe/disqus/,',
@@ -294,8 +296,11 @@ var dsqjs = new DisqusJS({
     admin: 'KirisameLan,',
     adminLabel: 'Admin'
 });
+
+});
+disqusjs.render(document.getElementById('disqusjs'));
 </script>
-      </div>
+  </div>
   
     </div>
     <div id="footer-wrapper">
