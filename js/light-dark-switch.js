@@ -9,6 +9,8 @@ let themeFunc = async function() {
             root.setAttribute('theme', 'dark');
             localStorage.setItem('theme', 'dark');
         }
+	if (disqusjs)
+	    disqusjs.render(document.getElementById('disqusjs'));
     });
 };
 themeFunc();
