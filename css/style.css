@@ -6,6 +6,7 @@
   --neut-L10: rgba(255,255,255,0.1);
   --banner-dim: rgba(0,0,0,0.2);
   --primary-hue: 260;
+  --card-background: #1c222b;
   --main-title: rgba(255,255,255,0.9);
   --btn-content: var(--neut-L75);
   --btn-content-hover: var(--btn-content);
@@ -41,7 +42,6 @@
     --primary: oklch(0.75 0.14 var(--primary-hue));
     --nav-dropdown-bg: oklch(0.2 0.02 var(--primary-hue));
     --page-background: oklch(0.16 0.014 var(--primary-hue));
-    --card-background: oklch(0.25 0.02 var(--primary-hue));
     --btn-bg: oklch(0.38 0.04 var(--primary-hue));
     --btn-hover: oklch(0.45 0.045 var(--primary-hue));
     --btn-active: oklch(0.5 0.05 var(--primary-hue));
@@ -76,7 +76,6 @@
     --primary: #78aeff;
     --nav-dropdown-bg: #11161f;
     --page-background: #0a0d13;
-    --card-background: #1c222b;
     --btn-bg: #364358;
     --btn-hover: #47566f;
     --btn-active: #536480;
